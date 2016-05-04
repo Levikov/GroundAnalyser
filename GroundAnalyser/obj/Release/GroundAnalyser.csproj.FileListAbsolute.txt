@@ -1,0 +1,6 @@
+C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.csprojResolveAssemblyReference.cache
+C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Form_ImgOrigShow.resources
+C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Form_MainCtrl.resources
+C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Form_Report.resources
+C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Properties.Resources.resources
+C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.csproj.GenerateResource.Cache

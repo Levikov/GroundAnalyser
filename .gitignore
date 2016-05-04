@@ -1,5 +1,3 @@
 /.gitignore
-/.vs
-/data
-/GroundAnalyser/bin
-/GroundAnalyser/obj
+/.vs/
+/data/
