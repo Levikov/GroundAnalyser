@@ -10,3 +10,12 @@ E:\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.F
 E:\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Form_ImgOrigShow.resources
 D:\Project\ToLZ\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.exe
 D:\Project\ToLZ\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.pdb
+D:\Project\GroundAnalyser\GroundAnalyser\bin\Release\GroundAnalyser.exe
+D:\Project\GroundAnalyser\GroundAnalyser\bin\Release\GroundAnalyser.pdb
+D:\Project\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Form_ImgOrigShow.resources
+D:\Project\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Form_MainCtrl.resources
+D:\Project\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Form_Report.resources
+D:\Project\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Properties.Resources.resources
+D:\Project\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.csproj.GenerateResource.Cache
+D:\Project\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.exe
+D:\Project\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.pdb

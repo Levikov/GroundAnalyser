@@ -27,6 +27,7 @@ namespace GroundAnalyser
             bmpImgOrigShow = new Bitmap(GlobalVariable.IMG_FULL_WID, GlobalVariable.IMG_FULL_HEI, PixelFormat.Format24bppRgb);  //bmp对象
             Thread threadImgOrigShow = new Thread(new ThreadStart(_threadImgOrigShow));
             threadImgOrigShow.Start();
+            this.picture_ImgOrig.Image = bmpImgOrigShow;
         }
 
         //读取原始图像
