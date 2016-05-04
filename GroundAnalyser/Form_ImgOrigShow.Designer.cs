@@ -108,6 +108,7 @@
             this.button_joint.TabIndex = 8;
             this.button_joint.Text = "拼接图像";
             this.button_joint.UseVisualStyleBackColor = true;
+            this.button_joint.Click += new System.EventHandler(this.button_joint_Click);
             // 
             // label_startPicNum
             // 
