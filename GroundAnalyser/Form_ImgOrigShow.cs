@@ -15,6 +15,9 @@ namespace GroundAnalyser
         private Byte[] bufShowOrig = new Byte[GlobalVariable.IMG_FULL_WID * GlobalVariable.IMG_FULL_HEI * 3];   //一帧缓存-显示
         private Bitmap bmpImgOrigShow;						    //bmp对象
         private BitmapData dataImgOrig;                         //bmp数据
+        private short startPicNum;                                //起始图像编号
+        private short endPicNum;                                  //终止图像编号
+        private short specNum;                                  //谱线编号
 
         public Form_ImgOrigShow()
         {
@@ -25,8 +28,8 @@ namespace GroundAnalyser
         {
             graphicImgOrig = picture_ImgOrig.CreateGraphics();								//图像控件对象
             bmpImgOrigShow = new Bitmap(GlobalVariable.IMG_FULL_WID, GlobalVariable.IMG_FULL_HEI, PixelFormat.Format24bppRgb);  //bmp对象
-            Thread threadImgOrigShow = new Thread(new ThreadStart(_threadImgOrigShow));
-            threadImgOrigShow.Start();
+            //Thread threadImgOrigShow = new Thread(new ThreadStart(_threadImgOrigShow));
+            //threadImgOrigShow.Start();
             this.picture_ImgOrig.Image = bmpImgOrigShow;
         }
 
@@ -96,5 +99,17 @@ namespace GroundAnalyser
                 Thread.Sleep(500);
             }
         }
+
+        private void textBox_startPicNum_textChanged(object sender,EventArgs e)
+        {
+            this.startPicNum =(short) UInt16.Parse(this.textBox_startPicNum.Text);
+
+
+        }
+        private void textBox_endPicNum_textChanged(object sender, EventArgs e)
+        {
+            this.endPicNum = (short)UInt16.Parse(this.textBox_endPicNum.Text);
+        }
+
     }
 }
