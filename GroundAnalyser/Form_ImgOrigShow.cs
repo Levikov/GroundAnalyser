@@ -100,22 +100,16 @@ namespace GroundAnalyser
             }
         }
 
-        #region 左侧控制面板
-
         private void textBox_startPicNum_textChanged(object sender,EventArgs e)
         {
             this.startPicNum =(short) UInt16.Parse(this.textBox_startPicNum.Text);
+
+
         }
         private void textBox_endPicNum_textChanged(object sender, EventArgs e)
         {
             this.endPicNum = (short)UInt16.Parse(this.textBox_endPicNum.Text);
         }
 
-        private void button_joint_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        #endregion
     }
 }
