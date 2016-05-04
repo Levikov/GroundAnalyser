@@ -19,3 +19,5 @@ D:\Project\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Properties.R
 D:\Project\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.csproj.GenerateResource.Cache
 D:\Project\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.exe
 D:\Project\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.pdb
+C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.exe
+C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.pdb
