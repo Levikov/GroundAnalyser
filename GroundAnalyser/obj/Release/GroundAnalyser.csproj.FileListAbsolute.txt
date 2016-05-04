@@ -30,9 +30,5 @@ C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser
 C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Form_Report.resources
 C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.Properties.Resources.resources
 C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.csproj.GenerateResource.Cache
-<<<<<<< HEAD
-=======
 C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\Release\GroundAnalyser.exe
 C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\Release\GroundAnalyser.pdb
-C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.csprojResolveAssemblyReference.cache
->>>>>>> parent of ff0f14c... delete bin and obj
