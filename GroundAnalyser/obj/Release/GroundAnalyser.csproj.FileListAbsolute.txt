@@ -1,4 +1,3 @@
-C:\Users\Victo\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.csprojResolveAssemblyReference.cache
 =======
 E:\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.exe
 E:\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.pdb

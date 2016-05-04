@@ -90,6 +90,7 @@
             this.numericUpDown_specNum.Name = "numericUpDown_specNum";
             this.numericUpDown_specNum.Size = new System.Drawing.Size(70, 25);
             this.numericUpDown_specNum.TabIndex = 6;
+            this.numericUpDown_specNum.ValueChanged += new System.EventHandler(this.numericUpDown_specNum_ValueChanged);
             // 
             // label_specNum
             // 
@@ -108,6 +109,7 @@
             this.button_joint.TabIndex = 8;
             this.button_joint.Text = "拼接图像";
             this.button_joint.UseVisualStyleBackColor = true;
+            this.button_joint.Click += new System.EventHandler(this.button_joint_Click);
             // 
             // label_startPicNum
             // 

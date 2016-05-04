@@ -28,8 +28,14 @@ namespace GroundAnalyser
         {
             graphicImgOrig = picture_ImgOrig.CreateGraphics();								//图像控件对象
             bmpImgOrigShow = new Bitmap(GlobalVariable.IMG_FULL_WID, GlobalVariable.IMG_FULL_HEI, PixelFormat.Format24bppRgb);  //bmp对象
-            //Thread threadImgOrigShow = new Thread(new ThreadStart(_threadImgOrigShow));
-            //threadImgOrigShow.Start();
+                                                                                                                                // Thread threadImgOrigShow = new Thread(new ThreadStart(_threadImgOrigShow));
+                                                                                                                                // threadImgOrigShow.Start();
+
+            //Thread threadImgJoint = new Thread(new ThreadStart(_threadImgJoint));
+            //threadImgJoint.Start();
+            _threadImgJoint();
+
+            showImgOrig(bufShowOrig);
             this.picture_ImgOrig.Image = bmpImgOrigShow;
         }
 
@@ -51,6 +57,7 @@ namespace GroundAnalyser
                         continue;
                     }
                     len = (UInt32)fileImgOrigShow.Length;				//文件长度
+                    
                     //fullFile.Seek(256, SeekOrigin.Begin);		        //定位读取文件的起始位置
                     fileImgOrigShow.Read(bufImgOrig, 0, (int)len);      //读文件
                     fileImgOrigShow.Close();                            //关闭文件
@@ -100,6 +107,31 @@ namespace GroundAnalyser
             }
         }
 
+        private void _threadImgJoint()
+        {
+            for (int i = 0; i < 160; i++)
+            {
+                Byte[] row = new Byte[4096];
+                fileImgOrigShow = new FileStream(GlobalVariable.pathImgPathShow + i.ToString() + ".raw", FileMode.Open, FileAccess.Read, FileShare.Read);  //显示原始图
+
+                fileImgOrigShow.Read(row, 0, 4096);      //读文件
+                fileImgOrigShow.Close();
+
+                for (int j = 0; j < 2048; j++)
+                {
+                    bufShowOrig[3 * i * 2048 + 3 * j] = (Byte)(row[j * 2 + 1] << GlobalVariable.moveLeftHigh | row[j * 2] >> GlobalVariable.moveRightLow);
+                    bufShowOrig[3 * i * 2048 + 3 * j+1] = bufShowOrig[3 * i * 2048 + 3 * j];
+                    bufShowOrig[3 * i * 2048 + 3 * j +2]= bufShowOrig[3 * i * 2048 + 3 * j];
+                }
+
+
+
+            }
+
+        }
+
+
+        #region 左侧控制面板
         private void textBox_startPicNum_textChanged(object sender,EventArgs e)
         {
             this.startPicNum =(short) UInt16.Parse(this.textBox_startPicNum.Text);
@@ -111,5 +143,15 @@ namespace GroundAnalyser
             this.endPicNum = (short)UInt16.Parse(this.textBox_endPicNum.Text);
         }
 
+        private void numericUpDown_specNum_ValueChanged(object sender, EventArgs e)
+        {
+            this.specNum = (short)this.numericUpDown_specNum.Value;
+        }
+
+        private void button_joint_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
     }
 }
