@@ -1,0 +1,11 @@
+E:\地面分析系统\GroundAnalyser\GroundAnalyser\bin\Debug\GroundAnalyser.exe
+E:\地面分析系统\GroundAnalyser\GroundAnalyser\bin\Debug\GroundAnalyser.pdb
+E:\地面分析系统\GroundAnalyser\GroundAnalyser\bin\Debug\CSkin.dll
+E:\地面分析系统\GroundAnalyser\GroundAnalyser\bin\Debug\DMSkin.dll
+E:\地面分析系统\GroundAnalyser\GroundAnalyser\bin\Debug\Gdu.WinFormUI.dll
+E:\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Debug\GroundAnalyser.Properties.Resources.resources
+E:\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Debug\GroundAnalyser.csproj.GenerateResource.Cache
+E:\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Debug\GroundAnalyser.exe
+E:\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Debug\GroundAnalyser.pdb
+E:\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Debug\GroundAnalyser.Form_MainCtrl.resources
+E:\地面分析系统\GroundAnalyser\GroundAnalyser\obj\Debug\GroundAnalyser.csprojResolveAssemblyReference.cache
