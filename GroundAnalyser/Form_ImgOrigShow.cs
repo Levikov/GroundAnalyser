@@ -11,8 +11,8 @@ namespace GroundAnalyser
     {
         private Graphics graphicImgOrig;					    //图像控件对象
         private FileStream fileImgOrigShow;						//原始图像文件
-        private Byte[] bufImgOrig = new Byte[GlobalVariable.IMG_FULL_WID * GlobalVariable.IMG_FULL_HEI * 2];    //一帧缓存-图像
-        private Byte[] bufShowOrig = new Byte[GlobalVariable.IMG_FULL_WID * GlobalVariable.IMG_FULL_HEI * 3];   //一帧缓存-显示
+        private Byte[] bufImgOrig; //一帧缓存-图像
+        private Byte[] bufShowOrig; //一帧缓存-显示
         private Bitmap bmpImgOrigShow;						    //bmp对象
         private BitmapData dataImgOrig;                         //bmp数据
         private short startPicNum;                                //起始图像编号
@@ -22,21 +22,12 @@ namespace GroundAnalyser
         public Form_ImgOrigShow()
         {
             InitializeComponent();
+
         }
 
         public void Form_ImgOrigShow_Load(object sender, System.EventArgs e)
         {
-            graphicImgOrig = picture_ImgOrig.CreateGraphics();								//图像控件对象
-            bmpImgOrigShow = new Bitmap(GlobalVariable.IMG_FULL_WID, GlobalVariable.IMG_FULL_HEI, PixelFormat.Format24bppRgb);  //bmp对象
-                                                                                                                                // Thread threadImgOrigShow = new Thread(new ThreadStart(_threadImgOrigShow));
-                                                                                                                                // threadImgOrigShow.Start();
-
-            //Thread threadImgJoint = new Thread(new ThreadStart(_threadImgJoint));
-            //threadImgJoint.Start();
-            _threadImgJoint();
-
-            showImgOrig(bufShowOrig);
-            this.picture_ImgOrig.Image = bmpImgOrigShow;
+          
         }
 
         //读取原始图像
@@ -109,19 +100,23 @@ namespace GroundAnalyser
 
         private void _threadImgJoint()
         {
-            for (int i = 0; i < 160; i++)
+            bufShowOrig = new Byte[2048*(endPicNum-startPicNum+1)*3];
+
+            for (int i = startPicNum; i <= endPicNum; i++)
             {
                 Byte[] row = new Byte[4096];
                 fileImgOrigShow = new FileStream(GlobalVariable.pathImgPathShow + i.ToString() + ".raw", FileMode.Open, FileAccess.Read, FileShare.Read);  //显示原始图
 
-                fileImgOrigShow.Read(row, 0, 4096);      //读文件
+                for (int t = 0; t < specNum * 4096; t++) fileImgOrigShow.ReadByte();
+                
+                fileImgOrigShow.Read(row,0, 4096);      //读文件
                 fileImgOrigShow.Close();
 
                 for (int j = 0; j < 2048; j++)
                 {
-                    bufShowOrig[3 * i * 2048 + 3 * j] = (Byte)(row[j * 2 + 1] << GlobalVariable.moveLeftHigh | row[j * 2] >> GlobalVariable.moveRightLow);
-                    bufShowOrig[3 * i * 2048 + 3 * j+1] = bufShowOrig[3 * i * 2048 + 3 * j];
-                    bufShowOrig[3 * i * 2048 + 3 * j +2]= bufShowOrig[3 * i * 2048 + 3 * j];
+                    bufShowOrig[3 * (i-startPicNum) * 2048 + 3 * j] = row[2 * j];
+                    bufShowOrig[3 * (i - startPicNum)* 2048 + 3 * j+1] = bufShowOrig[3 * (i - startPicNum) * 2048 + 3 * j];
+                    bufShowOrig[3 * (i - startPicNum) * 2048 + 3 * j +2]= bufShowOrig[3 * (i - startPicNum) * 2048 + 3 * j];
                 }
 
 
@@ -150,7 +145,16 @@ namespace GroundAnalyser
 
         private void button_joint_Click(object sender, EventArgs e)
         {
-
+           
+            graphicImgOrig = picture_ImgOrig.CreateGraphics();								//图像控件对象
+            bmpImgOrigShow = new Bitmap(2048, this.endPicNum-this.startPicNum+1, PixelFormat.Format24bppRgb);  //bmp对象
+                                                                                                                                // Thread threadImgOrigShow = new Thread(new ThreadStart(_threadImgOrigShow));
+                                                                                                                                // threadImgOrigShow.Start();
+            //Thread threadImgJoint = new Thread(new ThreadStart(_threadImgJoint));
+            //threadImgJoint.Start();
+            _threadImgJoint();
+            showImgOrig(bufShowOrig);
+            this.picture_ImgOrig.Image = bmpImgOrigShow;
         }
         #endregion
     }
