@@ -1,0 +1,5 @@
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libDataOperation\bin\Release\libDataOperation.dll
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libDataOperation\bin\Release\libDataOperation.pdb
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libDataOperation\obj\Release\libDataOperation.csprojResolveAssemblyReference.cache
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libDataOperation\obj\Release\libDataOperation.dll
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libDataOperation\obj\Release\libDataOperation.pdb
