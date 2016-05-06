@@ -39,3 +39,5 @@ C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyse
 C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.csproj.GenerateResource.Cache
 C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\Release\GroundAnalyser.pdb
 C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\Release\GroundAnalyser.csprojResolveAssemblyReference.cache
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\Release\libDataOperation.dll
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\Release\libDataOperation.pdb

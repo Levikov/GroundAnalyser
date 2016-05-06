@@ -141,6 +141,12 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libDataOperation\GroundAnalyser.Data.csproj">
+      <Project>{3989faaa-21c3-4f8b-bec7-2d2cd3ceba8f}</Project>
+      <Name>GroundAnalyser.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
