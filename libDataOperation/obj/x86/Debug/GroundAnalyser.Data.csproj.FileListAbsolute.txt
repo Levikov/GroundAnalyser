@@ -1,0 +1,4 @@
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libDataOperation\bin\x86\Debug\libDataOperation.dll
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libDataOperation\bin\x86\Debug\libDataOperation.pdb
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libDataOperation\obj\x86\Debug\libDataOperation.dll
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libDataOperation\obj\x86\Debug\libDataOperation.pdb

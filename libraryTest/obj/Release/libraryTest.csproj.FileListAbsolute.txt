@@ -1,1 +1,8 @@
 C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libraryTest\bin\Release\libraryTest.exe.config
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libraryTest\bin\Release\libraryTest.exe
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libraryTest\bin\Release\libraryTest.pdb
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libraryTest\bin\Release\libDataOperation.dll
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libraryTest\bin\Release\libDataOperation.pdb
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libraryTest\obj\Release\libraryTest.csprojResolveAssemblyReference.cache
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libraryTest\obj\Release\libraryTest.exe
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\libraryTest\obj\Release\libraryTest.pdb

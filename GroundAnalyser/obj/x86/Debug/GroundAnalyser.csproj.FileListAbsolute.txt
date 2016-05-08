@@ -1,0 +1,15 @@
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\x86\Debug\GroundAnalyser.exe
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\x86\Debug\GroundAnalyser.pdb
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\x86\Debug\CSkin.dll
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\x86\Debug\DMSkin.dll
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\x86\Debug\Gdu.WinFormUI.dll
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\x86\Debug\libDataOperation.dll
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\bin\x86\Debug\libDataOperation.pdb
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\x86\Debug\GroundAnalyser.csprojResolveAssemblyReference.cache
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\x86\Debug\GroundAnalyser.Form_ImgOrigShow.resources
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\x86\Debug\GroundAnalyser.Form_MainCtrl.resources
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\x86\Debug\GroundAnalyser.Form_Report.resources
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\x86\Debug\GroundAnalyser.Properties.Resources.resources
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\x86\Debug\GroundAnalyser.csproj.GenerateResource.Cache
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\x86\Debug\GroundAnalyser.exe
+C:\Users\Victor\OneDrive\Code\CSharp\GroundAnalyser\GroundAnalyser\GroundAnalyser\obj\x86\Debug\GroundAnalyser.pdb
